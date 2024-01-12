@@ -1,0 +1,6 @@
+docker build -t react-nginx-app .
+
+docker run --name react-nginx-app -p 8080:80 -d react-nginx-app
+
+With volume mount
+docker run --name scriptstudio-frontend -p 443:80 -d -v /home/ubuntu/ScriptStudio:/app react-nginx-app

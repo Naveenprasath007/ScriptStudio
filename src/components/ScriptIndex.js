@@ -27,7 +27,7 @@ export default function Example() {
     async function  Load()
     {
        const result = await axios.get(
-           "http://127.0.0.1:8000/genscript");
+           "http://18.219.45.124:8888/genscript");
            console.log(result.data);
     }
       
