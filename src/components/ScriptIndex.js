@@ -50,7 +50,7 @@ export default function Example() {
   try
       {
         setLoading(true);
-        const result = await axios.post("http://127.0.0.1:8000/genscript",
+        const result = await axios.post("http://18.219.45.124:8888/genscript",
       {
         prompt:inputValue,      
       });
