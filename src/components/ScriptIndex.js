@@ -8,7 +8,7 @@ import {
 } from "./TextAreaStyles";
 import 'react-quill/dist/quill.snow.css';
 import TextArea from "./TextArea"
-import Script from './Script';
+// import Script from './Script';
 
 
 const navigation = [
